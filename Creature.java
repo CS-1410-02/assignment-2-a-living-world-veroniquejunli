@@ -1,5 +1,5 @@
 
-public class Creature implements Reproduction, Death {
+public interface Creature implements Reproduction, Death {
     private String name;
     public Creature(String n){
         name = n;
