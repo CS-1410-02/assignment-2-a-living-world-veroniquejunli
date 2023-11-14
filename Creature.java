@@ -9,12 +9,8 @@ public interface Creature implements Feed, Reproduction, Death {
     }
     @Override
     public void feedMe(){
-        System.out.println("");
+        System.out.println();
     }
-
-
-    @Override
-    public void 
 
     
     @Override
