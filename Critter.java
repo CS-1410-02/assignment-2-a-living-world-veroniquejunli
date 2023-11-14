@@ -1,4 +1,4 @@
-package com.example.test;
+package com.example.project;
 import com.example.project.Creature;
 
 public class Critter implements Creature{
