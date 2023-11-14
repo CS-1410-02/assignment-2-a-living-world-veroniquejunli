@@ -1,8 +1,15 @@
 package com.example.test;
 
 public class Critter implements Creature{
-    void die(){
+
+    Random Chance = new Random();
+    
+    boolean die(){
+        int dieChance = 10;
+        return dieChance < Chance.nextInt(100);
     }
-    void reproduce(){
+    boolean reproduce(){
+        int repoChance = 70;
+        return repoChance < Chance.nextInt(100);
     }
 }
