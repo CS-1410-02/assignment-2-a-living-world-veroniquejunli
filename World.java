@@ -21,7 +21,7 @@ public class World {
           }
 
         public void spawnFood(){
-            
+            void feedMe;
         }
 
     }
