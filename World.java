@@ -20,5 +20,9 @@ public class World {
                         }
           }
 
+        public void spawnFood(){
+            
+        }
+
     }
 }
