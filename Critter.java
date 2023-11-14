@@ -1,6 +1,9 @@
 package com.example.test;
+import com.example.project.Creature;
 
 public class Critter implements Creature{
+
+    private String name;
 
     Random Chance = new Random();
     
