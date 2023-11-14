@@ -1,3 +1,4 @@
+package com.example.test;
 
 public interface Creature implements Reproduction, Death {
     private String name;
