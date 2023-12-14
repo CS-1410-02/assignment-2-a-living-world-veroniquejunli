@@ -1,6 +1,6 @@
 package com.example.project;
 
-public interface Creature implements Feed, Reproduction, Death {
+public interface secondCreature implements Feed, Reproduction, Death {
     private String name;
     public Creature(String n){
         name = n;
