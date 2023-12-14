@@ -3,6 +3,17 @@ package com.example.project;
 import java.util.ArrayList;
 
 public class World {
+
+    Random r = new Random();
+    Scanner scan = null;
+
+    for(i=0; i<3; i++){
+        Creature[i] = {
+            System.out.println("This is " + );
+            System.out.println("This creature is " + Math.random() + " years old");
+     }
+}
+
     
     ArrayList<Critter> Creatures = new ArrayList<>();
 
